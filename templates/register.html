@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="card narrow"><h1>Create Account</h1><form method="post"><input name="username" placeholder="Username" required><input name="password" type="password" placeholder="Password (8+ chars)" required><button>Register</button></form><p>Already registered? <a href="{{url_for('login')}}">Login</a></p></div>{% endblock %}
