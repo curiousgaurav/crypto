@@ -11,6 +11,4 @@ python -m venv venv
 python -m pip install -r requirements.txt
 python app.py
 
-Open http://127.0.0.1:5000
 
-DES/3DES are included only as legacy educational comparison topics, not for protecting real data.
